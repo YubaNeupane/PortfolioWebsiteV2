@@ -15,7 +15,9 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demoLink,
 }) => {
+  console.log(demoLink);
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -40,6 +42,20 @@ const ProjectCard = ({
               />
             </div>
           </div>
+          {demoLink ? (
+            <div className="absolute bottom-0 right-0 flex justify-end m-3  card-img_hover ">
+              <div
+                onClick={() => window.open(demoLink, "_blank")}
+                className="black-gradient hover:bg-gradient-to-r from-purple-400 to-pink-600 w-20 h-10 transition-all rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <h3 className="text-white font-bold  text-[14px] hover:text-[16px] transition-all w-full h-full text-center mt-2">
+                  Demo
+                </h3>
+              </div>
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
