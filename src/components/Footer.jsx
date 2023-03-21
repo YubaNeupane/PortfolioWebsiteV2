@@ -9,6 +9,7 @@ function Footer() {
         <a
           className="flex flex-row items-center justify-center cursor-pointer"
           href={"https://github.com/YubaNeupane"}
+          alt="github"
           target="_blank"
         >
           <AiFillGithub
@@ -20,6 +21,7 @@ function Footer() {
         <a
           className="flex flex-row items-center justify-center cursor-pointer"
           href={"https://www.linkedin.com/in/yuba-neupane/"}
+          alt="linkedin"
           target="_blank"
         >
           <AiFillLinkedin
