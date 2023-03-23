@@ -26,6 +26,10 @@ import {
   psu,
   botIQ,
   pnc,
+  cpp,
+  unreal,
+  unity,
+  cs,
 } from "../assets";
 
 export const navLinks = [
@@ -60,21 +64,17 @@ const services = [
     title: "Game Developer",
     icon: creator,
   },
+  {
+    title: " DevOps Engineer",
+    icon: web,
+  },
+  {
+    title: "Software Architect",
+    icon: mobile,
+  },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -92,10 +92,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -104,16 +100,32 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "C#",
+    icon: cs,
+  },
+  {
+    name: "Unreal Engine",
+    icon: unreal,
+  },
+  {
+    name: "Unity",
+    icon: unity,
   },
 ];
 

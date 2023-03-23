@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cs from "./tech/cs.png";
+import cpp from "./tech/cpp.png";
+import unity from "./tech/unity.png";
+import unreal from "./tech/unreal.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,4 +69,8 @@ export {
   psu,
   pnc,
   botIQ,
+  cs,
+  cpp,
+  unity,
+  unreal,
 };
